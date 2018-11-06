@@ -1,0 +1,12 @@
+*.zip
+/04_MODULE_C/vendor
+/04_MODULE_C/node_modules
+/04_MODULE_C/public/hot
+/04_MODULE_C/public/storage
+/04_MODULE_C/storage/*.key
+/04_MODULE_C/.idea
+/04_MODULE_C/.vagrant
+/04_MODULE_C/Homestead.json
+/04_MODULE_C/Homestead.yaml
+/04_MODULE_C/npm-debug.log
+/04_MODULE_C/.env

@@ -1,0 +1,93 @@
+nav{
+	text-align: center;
+	padding: 1%;
+	border-bottom: 1px solid black;
+}
+
+nav span{
+	display: flex;
+	justify-content: space-around;
+}
+
+nav span a{
+	text-decoration: none;
+	color: black;
+}
+
+.form-wrapper{
+	margin: 1% auto 1%;
+	width: 20%;
+	text-align: center;
+}
+
+.form-wrapper div{
+	margin: 0.5em;
+}
+
+.form-wrapper .input-title{
+	font-size: 0.8em;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+.button{
+	text-decoration: none;
+	color: black;
+	background: white;
+	box-shadow: none;
+	border: 1px solid black;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	cursor: pointer;
+}
+
+.button a{
+	text-decoration: none;
+	color: black;
+}
+
+.button:hover,.button:hover a{
+	color: white;
+	background: black;
+}
+
+.button.disabled{
+	color:whitesmoke;
+	background: gray;
+	cursor: not-allowed;
+}
+
+.table-wrapper{
+	margin: 0 auto;
+	width: 75%;
+}
+
+.table-wrapper table{
+	width: 100%;
+}
+
+.table-wrapper td, .table-wrapper th{
+	padding: 1%;
+}
+
+.exam-data{
+	margin-top:1%;
+	text-align: right;
+}
+
+.multiple-choice .choosen-answer{
+	font-weight: bold;
+	color: red;
+}
+
+.multiple-choice .correct-answer{
+	font-weight: bold;
+	color: green;
+}
+
+.highlight-keyword{
+	font-weight: bold;
+	color:green !important;
+}
