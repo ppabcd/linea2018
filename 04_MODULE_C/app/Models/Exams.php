@@ -10,7 +10,7 @@ class Exams extends Model
     protected $fillable = ['title', 'classroom_id', 'start', 'end', 'created_by'];
 
     public function classroom(){
-        return $this->belongsTo('\App\Models\ClassRooms');
+        return $this->belongsTo('\App\Models\Classrooms');
     }
 
     public function essay(){
